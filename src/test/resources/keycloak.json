@@ -1,0 +1,15 @@
+{
+  "realm": "Volpay",
+  "auth-server-url": "http://localhost:8180/auth/",
+  "ssl-required": "external",
+  "resource": "volpaylogin",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "d07f4e09-e14b-416b-9965-908818a634a9"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {
+  "on-deny-redirect-to" : "/volpaylogin/error.jsp"
+  }
+}

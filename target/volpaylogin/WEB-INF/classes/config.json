@@ -1,0 +1,9 @@
+{
+	"url" :  "/volpayui",
+	"realm": "volpay",
+	"client-name":"volpaylogin",
+	"tenant" : "MASTER",
+	"locale" : "en-US",
+	"timezone" : "UTC",
+	"timeout" : "20"
+}
